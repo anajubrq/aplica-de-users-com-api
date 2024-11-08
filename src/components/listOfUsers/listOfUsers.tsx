@@ -16,7 +16,7 @@ import { UserDeleteModal } from "../userDeleteModal/userDeleteModal";
 
 
 export interface User {
-  id: number;
+  id?: number;
   name: string;
   cpf: string;
   cep: string;
